@@ -8,15 +8,15 @@ function Sidebar() {
             <LogoSidebar>Webbrain.crm</LogoSidebar>
             <Profile />
             <SidebarList>
-                <SidebarListLi><i></i> Anlitika <i></i></SidebarListLi>
-                <SidebarListLi><i></i> Buyurtma <i></i></SidebarListLi>
-                <SidebarListLi><i></i> Moliya <i></i></SidebarListLi>
-                <SidebarListLi><i></i> Talaba <i></i></SidebarListLi>
-                <SidebarListLi><i></i> Guruhlar <i></i></SidebarListLi>
-                <SidebarListLi><i></i> Kurslar <i></i></SidebarListLi>
-                <SidebarListLi><i></i> HR <i></i> </SidebarListLi>
+                <SidebarListLi><span className='icon-diagram'></span> <p>Anlitika </p> <span className='icon-arrow-right'></span></SidebarListLi>
+                <SidebarListLi><span className='icon-orders'></span> <p>Buyurtma</p> <span className='icon-arrow-right'></span></SidebarListLi>
+                <SidebarListLi><span className='icon-wallet'></span><p> Moliya </p><span className='icon-arrow-right'></span></SidebarListLi>
+                <SidebarListLi><span className='icon-education'></span> <p>Talaba</p><span className='icon-arrow-right'></span></SidebarListLi>
+                <SidebarListLi><span className='icon-group'></span> <p>Guruhlar</p> <span className='icon-arrow-right'></span></SidebarListLi>
+                <SidebarListLi><span className='icon-book'></span><p> Kurslar</p><span className='icon-arrow-right'></span></SidebarListLi>
+                <SidebarListLi><span className='icon-work'></span> <p>HR </p><span className='icon-arrow-right'></span> </SidebarListLi>
             </SidebarList>
-            <Settings><i></i> Sozlamalar <i></i></Settings>
+            <Settings><span className='icon-settings'></span> <p>Sozlamalar</p><span className='icon-arrow-right'></span></Settings>
         </SidebarDiv>
 
 
