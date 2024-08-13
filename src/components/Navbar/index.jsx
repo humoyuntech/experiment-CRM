@@ -1,12 +1,14 @@
 // eslint-disable-next-line no-unused-vars
 import React, {useState} from 'react'
-import {Container, Logo, InputContainer, SearchInput, Search, Time} from './style'
+import {Container, Logo, InputContainer, SearchInput, Search, Time, Data, Select} from './style'
 
 
 
 function Navbar() {
-    const [now, setNow] = useState(new Date())
-    setInterval(() => setNow(new Date()), 1000)
+    const [now, setNow] = useState(new Date());
+    setInterval(() => setNow(new Date()), 1000);
+    const [selectedDate, setSelectedDate] = useState(new Date().toISOString().split('T')[0]);
+    
 
 
   return (
@@ -17,7 +19,16 @@ function Navbar() {
         <SearchInput type="text" placeholder='Srarch'/> 
         </InputContainer>
         <Time>{now.toLocaleTimeString()}</Time>
-        {/* <span>Hozir soat: {now.toLocaleTimeString()}</span> */}
+    
+          <label action="#" htmlFor="#">
+          <Data type='date' name="date" defaultValue={selectedDate}/>
+          </label>
+          <Select name="select">
+          <option value="uz">O'zbek</option>
+          <option value="uz">English</option>
+          <option value="ru">Русский</option>
+          </Select>
+
     </Container>
   )
 }

@@ -54,9 +54,35 @@ export const Search = styled(SearchSvg)`
 
 export const Time = styled.div`
 height: 100%;
-width: 120px;
-/* background-color: #a3ffb4; */
+width: 125px;
 display: flex;
 align-items: center;
-margin-left: 150px;
+margin-left: 70px;
+
+/* background-color: #a3ffb4; */
+`
+
+const sharedStyles =`
+  border-radius: 8px;
+  border: 1px solid lightgray;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 20px;
+  color: rgba(37, 62, 95, 1);
+  cursor: pointer;
+  background-color: #f9f9f9;
+  padding: 10px 10px 10px 5px;
+  margin: 0 16px;
+  height: 40px;
+`;
+
+export const Data = styled.input`
+ ${sharedStyles}
+`;
+
+export const Select = styled.select`
+ ${sharedStyles}
+
+  font-size: 15px;
+  min-height: 40px;
 `
