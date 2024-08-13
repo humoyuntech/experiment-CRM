@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-width: 280px;
 height: 100vh;
+width: 280px;
 background-color: #162539;
 color: white;
 position: relative;
@@ -22,7 +22,7 @@ scrollbar-width: none;
 `
 
 
-export const LogoSidebar =styled.div`
+/* export const LogoSidebar =styled.div`
     width: 100%;
     height: 50px;
     color: #1890FF;
@@ -32,7 +32,7 @@ export const LogoSidebar =styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-`
+` */
 
 export const SidebarList = styled.ul`
     height: 330px;

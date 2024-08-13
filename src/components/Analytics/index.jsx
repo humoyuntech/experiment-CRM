@@ -1,12 +1,15 @@
-// import './style.js'
-// import Sidebar from '../Sidebar/sidebar.jsx'
+import {Analytic} from './style.js'
+import Sidebar from '../Sidebar'
+import Navbar from '../Navbar'
 
-// function Analytics() {
-//   return (
-//     <>
-//     <Sidebar />
-//     </>
-//   )
-// }
 
-// export default Analytics
+function Analytics() {
+  return (
+    <Analytic>
+        <Navbar />
+        <Sidebar />
+    </Analytic>
+  )
+}
+
+export default Analytics

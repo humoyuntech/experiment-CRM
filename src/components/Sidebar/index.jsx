@@ -1,4 +1,4 @@
-import {Container, SidebarContainer, LogoSidebar, SidebarList, SidebarListLi, Submenu, Wrapper, Exet} from './style'
+import {Container, SidebarContainer, SidebarList, SidebarListLi, Submenu, Wrapper, Exet} from './style'
 import Profile from './Profile/profile'
 import sidebar from '../../utils/sidebar'
 import { useState } from 'react'
@@ -18,7 +18,7 @@ function Sidebar() {
   return (
     <Container>
         <SidebarContainer>
-            <LogoSidebar>Webbrain.crm</LogoSidebar>
+            {/* <LogoSidebar>Webbrain.crm</LogoSidebar> */}
             <Profile />
             <SidebarList>
                 {sidebar.map((item) => {
