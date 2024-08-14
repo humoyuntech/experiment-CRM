@@ -21,19 +21,6 @@ overflow-y: scroll;
 scrollbar-width: none;
 `
 
-
-/* export const LogoSidebar =styled.div`
-    width: 100%;
-    height: 50px;
-    color: #1890FF;
-    border-bottom: 1px solid #253E5F;
-    font-size: 20px;
-    font-weight: 600;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-` */
-
 export const SidebarList = styled.ul`
     height: 330px;
     width: 100%;
@@ -121,6 +108,7 @@ p {
   margin-top: auto;
   width: 100%;
   position: sticky;
+  z-index: 3;
   bottom: 0px;
   border-top: 1px solid rgb(222, 225, 227);
 

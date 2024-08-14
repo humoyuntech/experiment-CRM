@@ -7,6 +7,7 @@ import {Container, Logo, InputContainer, SearchInput, Search, Time, Data, Select
 function Navbar() {
     const [now, setNow] = useState(new Date());
     setInterval(() => setNow(new Date()), 1000);
+    // eslint-disable-next-line no-unused-vars
     const [selectedDate, setSelectedDate] = useState(new Date().toISOString().split('T')[0]);
     
 
@@ -24,9 +25,9 @@ function Navbar() {
           <Data type='date' name="date" defaultValue={selectedDate}/>
           </label>
           <Select name="select">
-          <option value="uz">O'zbek</option>
-          <option value="uz">English</option>
-          <option value="ru">Русский</option>
+            <option value="uz">O'zbek</option>
+            <option value="uz">English</option>
+            <option value="ru">Русский</option>
           </Select>
 
     </Container>

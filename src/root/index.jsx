@@ -4,7 +4,8 @@ import React from 'react'
 // import Login from '../components/Login/Login'
 // import Reset from '../components/Reset/Reset'
 // import Verification from '../components/Verification/verification'
-import Analytics from '../components/Analytics'
+import MainPage from '../components/MainPage'
+// import Table from '../components/Table'
 
 
 
@@ -22,7 +23,7 @@ function Root() {
               <Route path="verification" element={<Verification/> }/>
             </Routes>
           </BrowserRouter> */}
-          <Analytics />
+          <MainPage />
     </div>
   )
 }
