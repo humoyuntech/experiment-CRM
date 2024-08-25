@@ -54,13 +54,18 @@ export const Input = styled.input`
     font-size: 16px;
     color: #929FAF;
 `
+
+
+
 export const LinkReset = styled.a`
     display: block;
     color: #8C8C8C;
-    text-align: left;
+    text-align: center;
     margin-top: 10px;
     font-weight: 500;
     font-size: 14px;
+    color: white;
+    text-decoration: none;
 `
 export const Button = styled.button`
     background-color: #2F54EB;

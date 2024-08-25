@@ -17,7 +17,7 @@ function Verification() {
 
           <Button>Reset Password</Button>
           <Description>Experiencing issues receiving the code?</Description>
-          <LinkReset href="3">Resend code</LinkReset>
+          <LinkReset href="mainpage">Resend code</LinkReset>
       </Wrapper>
     </Container>
   )

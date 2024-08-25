@@ -1,4 +1,4 @@
-import {Wrapper, Title, Description, InputWrapper, Label, Input, Button} from './style'
+import {Wrapper, Title, Description, InputWrapper, Label, Input, Button, LinkReset} from './style'
 import {Container} from '../../root/style'
 
 function Reset() {
@@ -13,7 +13,7 @@ function Reset() {
           <Input type="text" id="fname" name="fname" placeholder='Enter your email address' />
         </InputWrapper>
 
-        <Button> <a href='verification'>Reset Password</a></Button>
+        <Button> <LinkReset href='verification'>Reset Password</LinkReset></Button>
     </Wrapper>
 
     </Container>

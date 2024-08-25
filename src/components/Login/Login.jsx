@@ -1,5 +1,6 @@
-import {Wrapper, Title, Description, InputWrapper, Label, Input, LinkReset, Button} from './style'
+import {Wrapper, Title, Description, InputWrapper, Label, Input, NavLink, Button} from './style'
 import {Container} from '../../root/style'
+
 
 function Login() {
   return (
@@ -16,7 +17,7 @@ function Login() {
             <Label htmlFor="pname">Password <span>*</span> </Label>
             <Input type="text" id="pname" name="fname" placeholder='***********'/>
           </InputWrapper>
-          <LinkReset href='reset'>Forgot password?</LinkReset>
+          <NavLink href='reset'>Forgot password?</NavLink>
           <Button>Login</Button>
       </Wrapper>
     </Container>

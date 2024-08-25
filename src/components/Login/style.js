@@ -54,7 +54,7 @@ export const Input = styled.input`
     font-size: 16px;
     color: #929FAF;
 `
-export const LinkReset = styled.a`
+export const NavLink = styled.a`
     display: block;
     color: #8C8C8C;
     text-align: left;

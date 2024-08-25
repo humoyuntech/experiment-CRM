@@ -1,7 +1,8 @@
+/* eslint-disable no-unused-vars */
 import React from 'react'
 import {Container, Title, ImportBtn, WrapperBtns, Add, AddItem, Select, TableTag} from './style'
 import ImportSvg from '../../assets/icons/import.svg?react'
-import Plus from '../../assets/icons/plus.svg?react'
+// import Plus from '../../assets/icons/plus.svg?react'
 import Action from "../../assets/icons/action.svg?react";
 import Edit from "../../assets/icons/edit.svg?react";
 
