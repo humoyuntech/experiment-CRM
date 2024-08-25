@@ -83,6 +83,8 @@ export const Data = styled.input`
 export const Select = styled.select`
  ${sharedStyles}
 
-  font-size: 15px;
+  padding: 5px;
+  min-width: 100px;
+  font-size: 13px;
   min-height: 40px;
 `

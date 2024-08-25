@@ -7,11 +7,13 @@ import Table from '../Table'
 function MainPage() {
   return (
     <Container>
-        <Navbar className="navbar" />
+
+        <Navbar/>
         <Wrapper>
-        <Sidebar className="sidebar"/>
-        <Table className="table"/>
+            <Sidebar/>
+            <Table/>
         </Wrapper>
+
     </Container>
   )
 }

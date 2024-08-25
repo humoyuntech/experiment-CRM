@@ -104,3 +104,53 @@ export const Select = styled.select`
 
   font-size: 15px;
 `
+export const TableTag =styled.table`
+
+padding: 5px;
+width: 100%;
+min-height: 170px;
+max-height: 250px;
+margin-top: 32px;
+border-collapse: collapse;
+
+thead {
+    color: gray;
+    font-size: 100%;
+}
+
+th, td, tr {
+  /* border: 1px solid black; */
+  /* outline: 1px solid black; */
+  border-bottom: 1px solid gray;
+  padding: 5px;
+  text-align: left;
+}
+
+td {
+    padding: 5px 5px;
+}
+
+.accepted {
+
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    background: #F6FFED;
+    border-radius: 16px 16px;
+    padding: 10px;
+    color: #52C41A;
+}
+
+.rejected {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    background: #FFF1F0;
+    border-radius: 16px 16px;
+    padding: 10px;
+    color: #F5222D;
+}
+
+`
