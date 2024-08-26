@@ -3,6 +3,7 @@ import {Container} from '../../root/style'
 
 
 function Login() {
+  alert("Forgot password?-bosing.")
   return (
     <Container>
       <Wrapper>

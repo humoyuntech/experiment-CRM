@@ -2,6 +2,7 @@ import {Wrapper, Title, Description, InputWrapper, Input, LinkReset, Button} fro
 import {Container} from '../../root/style'
 
 function Verification() {
+  alert("Resend code-bosing.")
   return (
     <Container>
       <Wrapper>

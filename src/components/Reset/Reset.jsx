@@ -2,6 +2,7 @@ import {Wrapper, Title, Description, InputWrapper, Label, Input, Button, LinkRes
 import {Container} from '../../root/style'
 
 function Reset() {
+  alert("Reset Password-bosing.")
   return (
     <Container>
       <Wrapper>
